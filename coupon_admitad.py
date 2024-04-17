@@ -173,12 +173,6 @@ class CouponPoster:
             post_content += f'{goto_link}\n\n'
         return post_content
 
-
-    async def send_post_to_global_channel(self, post_content):
-        await self.telegram_bot.send_message(chat_id=int(channelid_global), caption=post_content)
-        await asyncio.sleep(60)
-        # print("Post feito")
-
     async def send_confirmation_message(self):
         #user = await self.telegram_bot.get_entity(allowed_user_id)
         await self.telegram_bot.send_message(
@@ -204,4 +198,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
