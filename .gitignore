@@ -1,0 +1,21 @@
+# Arquivos de ambiente virtual
+venv/
+.env
+
+# Arquivos de dependências locais
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.json
+
+coupon_admitad.py
+
+# Configurações específicas do sistema
+.DS_Store
+Thumbs.db
+
+# Caches do Pyrogram
+pyrogram.session
+bot.session
+bot.session-journal

@@ -38,7 +38,7 @@ ALLOWED_USER_ID=seu id de conta do telegram.
 PHONE_NUMBER=seu número de telefone (da conta do telegram)
 ```
 
-AADMITAD:
+ADMITAD:
 ```env
 CLIENT_ID=informação de autenticação da sua conta admitad
 CLIENT_SECRET=informação de autenticação da sua conta admitad
